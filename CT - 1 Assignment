@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+	int amount_given, bill_amount, quo, rem;
+	scanf("%d %d", &amount_given, &bill_amount);
+	quo = amount_given/bill_amount;
+	rem = amount_given%bill_amount;
+	printf("Quotient is : %d\n", quo);
+	printf("Remainder is : %d", rem);
+	return 0;
+}
